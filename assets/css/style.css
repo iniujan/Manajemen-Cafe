@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Style for the navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Style for the card */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Additional styles */
+:root {
+    --primary-color: #343a40;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    /* --font-family: 'Arial', sans-serif; */
+}
+
+body {
+    /* font-family: var(--font-family); */
+    background-color: var(--background-color);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container-content {
+    margin-bottom: 4rem;
+    /* Sesuaikan nilai sesuai kebutuhan Anda */
+    border: 1px solid #f8f9fa;
+    /* Warna dan lebar border dapat disesuaikan */
+    padding: 1rem;
+    /* Opsional: Tambahkan padding jika diperlukan */
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--secondary-color);
+}
+
+/* Additional styles for centering content */
+.text-center {
+    text-align: center;
+}
+
+/* Style for buttons */
+.btn-primary {
+    margin-left: 85%;
+}
+
+/* Style for modal */
+.modal-content {
+    border-radius: 5px;
+}
+
+/* Style for the badge in the navbar */
+.navbar-brand {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 12px;
+}
